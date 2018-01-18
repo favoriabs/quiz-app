@@ -5,7 +5,7 @@
 ### To register a user
 > `api/v1/register`
 Method: `post`
-*Hit this endpoint with the following params*
+params
 *first_name
 *last_name
 *email
