@@ -7,11 +7,11 @@
 Method: post
 
 ## params
-`*first_name*
-*last_name*
-*email*
-*password*
-*profile_picture (note that this is in base64)*`
+`first_name,
+last_name,
+email,
+password,
+profile_picture` (note that this is in base64)
 
 ### response
 `{
@@ -25,8 +25,8 @@ Method: post
 Method: post
 
 ## params
-*email*
-*password*
+`email
+password`
 
 ### response
 `{
