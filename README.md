@@ -3,8 +3,7 @@
 ## Endpoints
 
 ### To register a user
-> `api/v1/register`
-Method: post
+> `api/v1/register : POST`
 
 ## params
 `first_name,
@@ -21,8 +20,7 @@ profile_picture` (note that this is in base64)
   }`
 
 ### User Login
-> `api/v1/login`
-Method: post
+> `api/v1/login : POST`
 
 ## params
 `email
@@ -35,7 +33,7 @@ password`
   }`
 
 ## social login
-  > `api/v1/auth/{provider}`
+  > `api/v1/auth/{provider} : POST`
   Ensure you pass in the provider parameter. e.g facebook or twitter. This must be a string.
 
 ### response
@@ -44,8 +42,7 @@ password`
   token: pcoksdnicscjcsoic8y8y33y83ygdbuccx973m
   }`
 
-  > `api/v1/all/topics`
-  Method: get
+  > `api/v1/all/topics : GET`
 
 ### response
 `{
@@ -53,7 +50,7 @@ password`
   topics: {object}
   }`
 
-  > `api/v1/topics/{topicId}`
+  > `api/v1/topics/{topicId} : POST`
 
 ### response
   `{
