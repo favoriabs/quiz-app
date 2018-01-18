@@ -7,11 +7,11 @@
 Method: post
 
 ## params
-*first_name*
+`*first_name*
 *last_name*
 *email*
 *password*
-*profile_picture (note that this is in base64)*
+*profile_picture (note that this is in base64)*`
 
 ### response
 `{
