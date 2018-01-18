@@ -10,7 +10,7 @@
 last_name,
 email,
 password,
-profile_picture` (note that this is in base64)
+profile_picture` (note that this picture should be base64)
 
 ### response
 `{
